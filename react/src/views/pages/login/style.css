@@ -1,0 +1,108 @@
+.fixed-bar {
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+    background-color: #F2F6FF;
+    text-align: right;
+}
+
+.fixed-bar-col {
+    margin-right: 10%;
+    margin-top: 30px;
+    color: #324567;
+}
+
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F2F6FF;
+}
+
+.about-us-cont {
+    width: 100%;
+    max-width: 850px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-judul {
+    color: white;
+    background-color: #324567;
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.paragraf {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    margin: 5%;
+}
+
+.contact-cont {
+    width: 80%;
+    max-width: 1000px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-contact {
+    width: 300px;
+    height: 250px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.lingkaran {
+    width: 50px;
+    height: 50px;
+    background-color: #324567;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.button-login {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #0536FF;
+}
+
+.button-login:hover {
+    background-color:  #002A88;
+}
+
+.button-forgot {
+    background-color: transparent;
+    color: #0536FF;
+    border: none;
+}
+
+.button-forgot:hover {
+    background-color: transparent;
+    color: #002A88;
+}
+
+.button-forgot:active {
+    background-color: transparent;
+}

@@ -1,0 +1,78 @@
+.label{
+    font-weight: bold;
+  
+  
+  }
+  
+  .header-text{
+    font-weight: bold;
+    opacity:0.5
+  }
+  
+  .submitButtonStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-left: 65%;
+    margin-top: 5%;
+    background-color: #2662FF;
+    border-radius: 10px;
+    font-size: 1vw;
+  }
+  
+  .card-style {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    background-color: rgba(90, 113, 157, 0.8);
+    border-radius: 15px;
+    position: relative;
+  }
+  
+  .card-content-style {
+    padding-top: 100%;
+    position: relative;
+  }
+  
+  .image-style {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 95%; /* Lebar 95% dari card */
+    height: 95%; /* Tinggi 95% dari card */
+    object-fit: cover; /* Mengisi ruang dengan gambar, menjaga aspek rasio */
+    border-radius: 15px;
+  }
+  
+  
+  .file-input-style {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .pencil-icon-style {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    cursor: pointer;
+    width: 2vw;
+    color: #666666;
+    opacity: 0.5;
+  }
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,123 @@
+/* CSS di dalam file .css Anda atau inline styling */
+.border {
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #ccc; /* Warna dan gaya garis kolom yang Anda inginkan */
+  }
+  
+  .border th,
+  .border td {
+    border-right: 1px solid #ccc; /* Garis kolom vertikal */
+    padding: 8px; /* Sesuaikan sesuai kebutuhan Anda */
+  }
+  
+  /* Jika Anda ingin menghapus garis kolom terakhir, Anda bisa menggunakan pseudo-class :last-child */
+  .border th:last-child,
+  .border td:last-child {
+    border-right: none; /* Menghapus garis kolom terakhir */
+  }
+  
+/* Di dalam file Style.css Anda atau inline styling di komponen Tables.js */
+.table-font {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 15px;
+  }
+
+.table-font-judul {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 30px;
+}
+  
+.row-background {
+    background-color: #06359c; 
+  }
+
+.table-container {
+    border-radius: 4px; /* Radius sudut 4px */
+}
+
+.date {
+    margin-top: 20px; /* Sesuaikan dengan jumlah margin yang Anda inginkan */
+  }
+
+  .row-background-blue {
+    background-color: #007BFF; /* Ganti dengan kode warna biru yang Anda inginkan */
+    color: white; /* Tambahkan jika Anda ingin mengubah warna teks menjadi putih */
+  }
+  
+  .row-background-white {
+    background-color: white; /* Ganti dengan warna latar belakang putih yang Anda inginkan */
+  }
+  
+  .custom-table {
+    background-color: red;
+  }
+  
+  .custom-header {
+    background-color: blue;
+  }
+  
+  .tr-even:hover {
+    background-color: pink;
+    cursor: pointer;
+  }
+  
+  .tr-odd:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+  }
+  
+  .custom-table {
+    width: 60%; /* Ubah persentase ini sesuai dengan ukuran yang Anda inginkan */
+    text-align: center;
+    margin-left: 95px;
+    /* margin-top: 35px; */
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    padding: 8px; /* Sesuaikan padding sesuai dengan preferensi Anda */
+    /* Tambahan gaya CSS lainnya sesuai kebutuhan Anda */
+  }
+
+  .custom-input {
+    width: 350px; /* Sesuaikan dengan lebar yang Anda inginkan */
+  }
+  
+/* Default padding and margin values */
+.margin-tanggal {
+  padding-top: 10px;
+}
+
+.margin-tanggal1 {
+  padding-top: 5px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+  .margin-jadwal{
+    margin-top: 10px;
+    margin-left: 95px;
+  }
+
+  .detail-tanggal{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .tanggal-dipilih{
+    margin-left: 35px;
+    font-size: 18px;
+  }
+
+  .tabel-detail{
+    margin-right: 20px;
+  }
+
+  .margin-lampiran{
+    margin-right: 10px;
+  }
+
+  .cancel-tanggal{
+    margin-left : 5px;
+  }

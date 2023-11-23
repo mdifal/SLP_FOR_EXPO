@@ -1,0 +1,234 @@
+.fixed-bar {
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+    margin: 0;
+    padding: 0;
+}
+.home-container{
+    display:flex;
+    justify-content: center;
+    position: relative;
+}
+header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 0 2rem;
+    justify-content: right;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: right; 
+}
+nav button {
+    margin-right: 25px;
+    color: #324567;
+    border: 0;
+    text-decoration: none;
+    background-color: transparent;
+}
+nav button:hover {
+    color: blue;
+}
+header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #324567;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+.landing-image1 {
+    position: absolute;
+    z-index: 1;
+    max-width: 115%;
+    height: auto;
+    margin-top: -20%;
+    margin-left: 0.1%;
+    overflow: hidden;
+}
+
+.landing-image2 {
+    position: absolute;
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+    padding-top: 2.5%;
+    overflow: hidden;
+}
+
+.landing-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding-bottom: 200px;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  text-align: center;
+}
+.page {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F2F6FF;
+}
+.landing-page {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.about-us-cont {
+    width: 100%;
+    max-width: 850px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    height: 100vh; 
+}
+.card-judul {
+    color: white;
+    background-color: #324567;
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: center;
+}
+.paragraf {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    margin: 5%;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%; 
+}
+.contact-content {
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.lingkaran {
+  width: 50px;
+  height: 50px;
+  background-color: #324567;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.card-contact {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  z-index: 1; /* Mengatur tumpukan (stacking order) */
+}
+
+@media (max-width: 768px) {
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .landing-page {
+    position: relative;
+    padding: 0;
+  }
+
+  .landing-image1 {
+    transform: translateY(88%);
+  }
+
+  .landing-image2 {
+    transform: translateY(180%);
+  }
+
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    transform: translateY(-100vh);
+  }
+
+  header .responsive_nav {
+    transform: translateY(0);
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+  }
+
+  nav button {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+
+  .login {
+    margin-left: -25px;
+  }
+  .contact {
+    flex-direction: column;
+    display: flex;
+    margin-left: 0;
+    max-width: 10%;
+
+  }
+  .card-contact{ 
+    flex-direction: column;
+  }
+}

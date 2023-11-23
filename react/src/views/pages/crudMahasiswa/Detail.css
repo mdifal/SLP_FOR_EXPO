@@ -1,0 +1,126 @@
+.detail-container{
+    position: absolute;
+    width: 850px;
+    height: 400px;
+    left: 482px;
+    top: 140px;
+    background: #5A719D;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+.img-container{
+    position: absolute;
+    height: 400px;
+    top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+.nama{
+    font-weight: bold;
+    padding: 25px;
+}
+.img{
+    box-sizing: border-box;
+    border: 3px solid rgba(90, 113, 157, 0.8);
+    border-radius: 30px;
+    width: 200px;
+    height: auto;
+}
+.details{
+    position: absolute;
+    width: 852px;
+    height: 400px;
+    padding: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.item{
+    width: 700px;
+    height: 25px;
+    margin: 10px;
+    padding-left: 20px;
+    background: rgba(90, 113, 157, 0.1);
+    border-radius: 20px;
+}
+.label {
+    float: left; 
+    width: 40%; 
+    text-align: left;
+}
+.value {
+    float: right;
+    width: 60%; 
+    text-align: left;
+}
+h3{
+    font-size: 25px;
+    padding: 5px;
+    padding-left: 30px;
+}
+.identitas{
+    width: 290px;
+    height: 45px;
+    background: rgba(90, 113, 157, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        position: relative;
+        text-align: center;
+        margin: 20px auto;
+      }
+    
+  
+    .img-container {
+        position: relative;
+        justify-content: center;
+        z-index: 2;
+        top: -100px;
+        width: 100%;
+        margin: 0;
+    }
+  
+    .img {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+  
+    .detail-container {
+        justify-content: center;
+        z-index: 1; 
+        width: 100%;
+        left: 0;
+        top: 300px;
+    }
+    .details{
+        width: 100%;
+    }
+    .item {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+  
+    h3 {
+      font-size: 20px;
+      padding: 5px 0;
+      text-align: center; 
+    }
+  
+    .identitas {
+      width: 100%;
+      height: auto; 
+      margin: 10px 0;
+    }
+  }
